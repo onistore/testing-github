@@ -1,0 +1,107 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+header {
+  background: #1a2238;
+  color: #eaeaea;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: auto;
+}
+
+.logo {
+  margin-right: auto;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: all .5s ease 0s;
+}
+
+.logo:hover {
+  color: #FFD700;
+  transform: rotate(5deg);
+}
+
+.btn-cta {
+  margin-right: 10px;
+  border: none;
+  font-size: 20px;
+  padding: 6px 12px;
+  background: #ff0000;
+  color: #eaeaea;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+nav ul{
+  display: flex;
+  padding: 20px;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+li a {
+  transition: all .5s ease 0s;
+  display: inline-block;
+}
+
+li a:hover {
+  color:	#ff6a3d;
+  transform: rotate(3deg);
+}
+
+a {
+  color: #eaeaea;
+  text-decoration: none;
+}
+
+footer {
+  padding: 0px;
+  text-align: center;
+  background: #1A2238;
+  color: #eaeaea;
+  width: auto;
+}
+
+.gambargerak {
+  margin: 100px;
+}
+@keyframes puterin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+body {margin:0; font-family: sans-serif;}
+
+.gambar {width: 90%; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr}
+
+.gambar .foto img{width: 315px;}
+
+.foto {border:1px black; margin:10px; text-align: center;}
+
+.foto a:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.foto a{border:1px solid green; padding:10px; color: white; background: #00C403;  text-decoration: none; border-radius: 10px; cursor: pointer;}
+
+.foto {border: 1px solid #00C1B3; margin:10px;}
+
+.foto p {
+  color:#FF7476;
+}
+
+.foto h2 {
+  color:#505050 ;
+}
