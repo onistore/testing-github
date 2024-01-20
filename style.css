@@ -6,14 +6,14 @@
 }
 
 header {
-  background: #1a2238;
+  background: #DAA520;
   color: #eaeaea;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  width: auto;
+  width: 1370px;
 }
 
 .logo {
@@ -23,9 +23,16 @@ header {
   transition: all .5s ease 0s;
 }
 
+.logo img {
+  margin-right: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 .logo:hover {
   color: #FFD700;
-  transform: rotate(5deg);
+  transform: rotate(0deg);
 }
 
 .btn-cta {
@@ -34,6 +41,17 @@ header {
   font-size: 20px;
   padding: 6px 12px;
   background: #ff0000;
+  color: #eaeaea;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-ctb {
+  margin-right: 10px;
+  border: none;
+  font-size: 20px;
+  padding: 6px 12px;
+  background: #DAA520;
   color: #eaeaea;
   border-radius: 8px;
   cursor: pointer;
@@ -56,7 +74,7 @@ li a {
 
 li a:hover {
   color:	#ff6a3d;
-  transform: rotate(3deg);
+  transform: rotate(0deg);
 }
 
 a {
@@ -64,12 +82,12 @@ a {
   text-decoration: none;
 }
 
-footer {
+footer{
   padding: 0px;
   text-align: center;
-  background: #1A2238;
+  background: #CFB53B;
   color: #eaeaea;
-  width: auto;
+  width: 1370px;
 }
 
 .gambargerak {
@@ -77,31 +95,164 @@ footer {
 }
 @keyframes puterin {
   100% {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
 }
 
 body {margin:0; font-family: sans-serif;}
 
-.gambar {width: 90%; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr}
+.gambar {width: 315; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr}
 
 .gambar .foto img{width: 315px;}
 
-.foto {border:1px black; margin:10px; text-align: center;}
+.foto {border:1px black; margin:5px; text-align: center;}
 
-.foto a:hover {
-  background-color: green;
-  color: #fff;
-}
-
-.foto a{border:1px solid green; padding:10px; color: white; background: #00C403;  text-decoration: none; border-radius: 10px; cursor: pointer;}
-
-.foto {border: 1px solid #00C1B3; margin:10px;}
+.foto {border: 1px solid #00C1B3; margin:5px;}
 
 .foto p {
   color:#FF7476;
 }
 
 .foto h2 {
-  color:#505050 ;
+  color: #ffff00 ;
+}
+
+.wrapper {
+  width: 315px;
+  margin: 0 auto;
+}
+
+.zoom-effect {  
+  position: relative;
+  width: 100%;
+  height: 315px;
+  margin: 0 auto;
+  overflow: hidden;  
+}
+
+.kotak {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+.kotak img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 300px;
+}
+
+.zoom-effect:hover .kotak img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  background: darkorange;
+  color: white;
+  border-radius: 5px;
+}
+
+select {
+  margin: 20px;
+  width: 145px;
+  background: #ff0;
+  color: #000;
+}
+
+option:not(:checked) {
+  background-color: #fff;
+}
+
+.bottom-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  background: red;
+  color: white;
+  border-radius: 8px;
+}
+
+.container {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+.sidebar {
+    width: 300px;
+    border: 1px solid #eee;
+    border-radius: 1px;
+    padding: 10px;
+    height: 300px;
+    box-shadow: 0px 0px 3px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.fa-circle {
+    color: orangered;
+}
+.searchBar {
+    width: 280;
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input {
+    border: none;
+    outline: none;
+    background: none;
+}
+.glass:hover {
+    color: orangered;
+    cursor: pointer;
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-brands {
+    font-size: 25px;
+    margin: 0 10px;
+    color: #333;
+    cursor: pointer;
+}
+.fa-brands:hover {
+    color: orangered;
+}
+.data {
+    width: 60%;
+    border-radius: 1px;
+    height: 210px;
+    overflow-y: auto;
+}
+#root {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+
+
+button:hover {
+    background-color: orangered;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
 }
