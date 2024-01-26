@@ -100,7 +100,7 @@ footer{
   }
 }
 
-body {margin:0; font-family: sans-serif;}
+body {margin:0; font-family: sans-serif; width: auto;}
 
 .gambar {width: 315; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr}
 
@@ -183,7 +183,7 @@ option:not(:checked) {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: auto;
+    width: 500px;
 }
 .sidebar {
     width: 300px;
