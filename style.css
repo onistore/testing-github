@@ -13,7 +13,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  width: 1370px;
+  width: auto;
 }
 
 .logo {
@@ -87,7 +87,7 @@ footer{
   text-align: center;
   background: #CFB53B;
   color: #eaeaea;
-  width: 1370px;
+  width: auto;
 }
 
 .gambargerak {
