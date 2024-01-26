@@ -101,7 +101,7 @@ footer{
 
 body {margin:0; font-family: sans-serif;}
 
-.gambar {width: auto; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;}
+.gambar {width: 95%; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;}
 
 .gambar .foto img{width: 100%;}
 
