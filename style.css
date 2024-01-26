@@ -1,4 +1,3 @@
-
 *, html, body {
   margin: 0;
   padding: 0;
@@ -102,7 +101,7 @@ footer{
 
 body {margin:0; font-family: sans-serif;}
 
-.gambar {width: auto; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr}
+.gambar {width: 315px; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr}
 
 .gambar .foto img{width: 315px;}
 
