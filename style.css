@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Helvetica;
-  width: auto;
 }
 
 header {
@@ -101,11 +100,11 @@ footer{
   }
 }
 
-body {margin:0; font-family: sans-serif; width: auto;}
+body {margin:0; font-family: sans-serif;}
 
 .gambar {width: auto; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr}
 
-.gambar .foto img{width: auto;}
+.gambar .foto img{width: 315px;}
 
 .foto {border:1px black; margin:5px; text-align: center;}
 
