@@ -13,7 +13,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  width: auto;
+  width: 1370px;
 }
 
 .logo {
@@ -87,7 +87,7 @@ footer{
   text-align: center;
   background: #CFB53B;
   color: #eaeaea;
-  width: auto;
+  width: 1370px;
 }
 
 .gambargerak {
@@ -101,7 +101,7 @@ footer{
 
 body {margin:0; font-family: sans-serif;}
 
-.gambar {width: 315px; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr}
+.gambar {width: 100%; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr}
 
 .gambar .foto img{width: 315px;}
 
@@ -118,7 +118,7 @@ body {margin:0; font-family: sans-serif;}
 }
 
 .wrapper {
-  width: auto;
+  width: 315px;
   margin: 0 auto;
 }
 
@@ -182,10 +182,10 @@ option:not(:checked) {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 500px;
+    width: 50%;
 }
 .sidebar {
-    width: 300px;
+    width: 40%;
     border: 1px solid #eee;
     border-radius: 1px;
     padding: 10px;
@@ -199,7 +199,7 @@ option:not(:checked) {
     color: orangered;
 }
 .searchBar {
-    width: 280;
+    width: 100%;
     background-color: #eee;
     border-radius: 6px;
     padding: 10px;
@@ -251,6 +251,8 @@ button:hover {
 ::-webkit-scrollbar {
     display: none;
 }
+
+
 
 .dark-mode {
   background-color: black;
