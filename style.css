@@ -13,7 +13,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  width: 1370px;
+  width: auto;
 }
 
 .logo {
@@ -87,7 +87,7 @@ footer{
   text-align: center;
   background: #CFB53B;
   color: #eaeaea;
-  width: 1370px;
+  width: auto;
 }
 
 .gambargerak {
@@ -101,9 +101,9 @@ footer{
 
 body {margin:0; font-family: sans-serif;}
 
-.gambar {width: 100%; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr}
+.gambar {width: auto; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr}
 
-.gambar .foto img{width: 315px;}
+.gambar .foto img{width: 100%;}
 
 .foto {border:1px black; margin:5px; text-align: center;}
 
