@@ -183,7 +183,7 @@ option:not(:checked) {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 500px;
+    width: auto;
 }
 .sidebar {
     width: 300px;
