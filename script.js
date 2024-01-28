@@ -180,3 +180,7 @@ const displayItem = (items) => {
   }).join('')
 };
 displayItem(categories);
+
+function myFunction() {
+  document.getElementById("0").innerHTML = "Hello World";
+}
