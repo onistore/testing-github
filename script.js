@@ -29,29 +29,30 @@ const product = [
     id: 5,
     title: 'GOD OF WAR',
 },
-  {
-  id: 6,
-  title: 'JADE DYNASTY',
-},
 {
-  id: 7,
+  id: 6,
   title: 'LIAN QI SHI WAN NIAN',
 },
 {
-  id: 8,
+  id: 7,
   title: 'MAGIC CHEF OF ICE AND FIRE',
 },
   {
-    id: 9,
+    id: 8,
     title: 'MASTER ALCEMIST',
   },
 {
-  id: 10,
+  id: 9,
   title: 'PERFECT WORLD',
 },
 {
-  id: 11,
+  id: 10,
   title: 'RENEGADE IMMORTAL',
+},
+
+{
+  id: 11,
+  title: 'SOUL LAND 2',
 },
 {
     id: 12,
