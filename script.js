@@ -10,147 +10,67 @@ alert ("terimakasih")
 
 const product = [
   {
-      id: 0,
+      id: 1,
       title: 'AGAINST THE SKY SUPREME',
   },
   {
-      id: 1,
-      title: 'AGAINST THE GOD',
-  },
-  {
       id: 2,
-      title: 'ANCIENT MYTH',
+      title: 'AGAINST THE GOD',
   },
   {
       id: 3,
       title: 'APOTHEOSIS',
   },
-  {
-      id: 4,
-      title: 'BATTLE THROUGH THE HEAVENS S1',
-  },
-  {
-      id: 5,
-      title: 'BATTLE THROUGH THE HEAVENS S2',
-  },
 {
-    id: 6,
-    title: 'BATTLE THROUGH THE HEAVENS S3',
-},
-{
-    id: 7,
-    title: 'BATTLE THROUGH THE HEAVENS S4',
-},
-{
-    id: 8,
+    id: 4,
     title: 'BATTLE THROUGH THE HEAVENS S5',
 },
 {
-    id: 9,
-    title: 'DUBU XIAOYAO',
-},
-{
-    id: 10,
+    id: 5,
     title: 'GOD OF WAR',
 },
-{
-    id: 11,
-    title: 'LEGEND OF ASSASIN',
-},
-{
-  id: 12,
-  title: 'LEGEND OF XIANWU',
-},
   {
-    id: 13,
-    title: 'LEGENDARY TWINS',
-  },
+  id: 6,
+  title: 'JADE DYNASTY',
+},
 {
-  id: 14,
+  id: 7,
   title: 'LIAN QI SHI WAN NIAN',
 },
 {
-  id: 15,
+  id: 8,
   title: 'MAGIC CHEF OF ICE AND FIRE',
 },
   {
-    id: 16,
+    id: 9,
     title: 'MASTER ALCEMIST',
   },
 {
-  id: 17,
+  id: 10,
   title: 'PERFECT WORLD',
 },
 {
-  id: 18,
+  id: 11,
   title: 'RENEGADE IMMORTAL',
 },
 {
-  id: 19,
-  title: 'SHROUDING THE HEAVENS',
-},
-{
-    id: 20,
-    title: 'SUPREME GOD EMPEROR',
-},
-{
-    id: 21,
-    title: 'SWALLOWED STAR S1',
-},
-{
-    id: 22,
-    title: 'SWALLOWED STAR S2',
-},
-{
-    id: 23,
+    id: 12,
     title: 'SWALLOWED STAR S3',
 },
 {
-  id: 24,
-  title: 'THE DEMON HUNTER',
-},
-{
-  id: 25,
+  id: 13,
   title: 'THE GREAT RULER',
 },
 {
-  id: 26,
+  id: 14,
   title: 'THRONE OF SEAL',
 },
 {
-  id: 27,
-  title: 'WU DONG QIAN KUN S1',
-},
-{
-  id: 28,
-  title: 'WU DONG QIAN KUN S2',
-},
-{
-  id: 29,
-  title: 'WU DONG QIAN KUN S3',
-},
-{
-  id: 30,
+  id: 15,
   title: 'WU DONG QIAN KUN S4',
 },
 {
-  id: 31,
-  title: 'XI XING JI S1',
-},
-{
-  id: 32,
-  title: 'XI XING JI S2',
-},
-{
-  id: 33,
-  title: 'XI XING JI S3',
-},
-{
-  id: 34,
-  title: 'XI XING JI S4',
-},
-{
-  id: 35,
+  id: 16,
   title: 'XI XING JI S5',
 },
 ];
