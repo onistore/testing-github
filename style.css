@@ -251,10 +251,3 @@ button:hover {
 ::-webkit-scrollbar {
     display: none;
 }
-
-
-
-.dark-mode {
-  background-color: black;
-  color: white;
-}
