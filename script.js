@@ -1,12 +1,10 @@
-alert ("yang pake HP tolong pake mode dekstop")
+alert ("kalau error gunakan mode dekstop")
 
-alert ("rekomendasi donghua bisa DM judulnya ke wa atau discord")
+alert ("rekomendasi donghua bisa DM judulnya ke wa atau discord. insya allah saya akan buat kan jika tidak ada ke sibukan")
 
-alert ("insya allah saya akan buat kan jika tidak ada ke sibukan")
+alert ("donate pencet 'DOTANE HERE' diatas . jangan lupa SUBSCRIBE")
 
-alert ("jangan lupa donate dengan pencet 'DOTANE HERE' diatas")
-
-alert ("terimakasih")
+confirm ("DI SINI HANYA UPLOAD EPISODE TERBARU SAJA")
 
 const product = [
   {
