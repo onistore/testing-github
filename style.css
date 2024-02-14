@@ -166,6 +166,7 @@ select {
 
 option:not(:checked) {
   background-color: #fff;
+  text-align: center;
 }
 
 .bottom-right {
