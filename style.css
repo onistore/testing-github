@@ -90,12 +90,9 @@ footer{
   width: 100%;
 }
 
-.container {
+.container { 
     align-items: center;
     margin: 5px;
-    width: 95%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 }
  
 #searchbar {
@@ -110,6 +107,9 @@ footer{
     list-style: none;
     padding: 0;
     margin: 0;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
  
 .animals {
