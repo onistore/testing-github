@@ -28,17 +28,17 @@ const product = [
     title: 'GOD OF WAR',
 },
 {
-  id: 6,
-  title: 'LIAN QI SHI WAN NIAN',
+    id: 6,
+    title: 'GREAT DOCTOR MISS NINE',
 },
 {
   id: 7,
+  title: 'LIAN QI SHI WAN NIAN',
+},
+{
+  id: 8,
   title: 'MAGIC CHEF OF ICE AND FIRE',
 },
-  {
-    id: 8,
-    title: 'MASTER ALCEMIST',
-  },
 {
   id: 9,
   title: 'PERFECT WORLD',
