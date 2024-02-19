@@ -112,14 +112,14 @@ footer{
     grid-template-columns: 1fr 1fr;
 }
  
-.animals {
+.donghua {
     font-size: 1em;
     padding: 5px;
     border-bottom: 1px solid #ccc;
     animation: fadeIn 0.5s ease-in-out;
 }
  
-.animals:last-child {
+.donghua:last-child {
     border-bottom: none;
 }
  
