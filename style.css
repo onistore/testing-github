@@ -93,7 +93,7 @@ footer{
 .container {
     display: grid;
     align-items: left;
-    margin: 10px;
+    margin: 5px;
 }
  
 #searchbar {
