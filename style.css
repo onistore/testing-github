@@ -150,7 +150,7 @@ body {margin:0; font-family: sans-serif;}
 
 .gambar .foto img{width: 100%; height: 100%;}
 
-.gamba {display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;}
+.gamba {display: grid; grid-template-columns: 1fr 1fr 1fr;}
 
 .foto {border:1px black; margin:2px; text-align: center;}
 
