@@ -146,7 +146,7 @@ footer{
 
 body {margin:0; font-family: sans-serif;}
 
-.gambar {width: 95%; display: grid; grid-template-columns: 1fr 1fr 1fr;}
+.gambar {display: grid; grid-template-columns: 1fr;}
 
 .gambar .foto img{width: 100%; height: 100%;}
 
