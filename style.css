@@ -168,7 +168,7 @@ body {margin:0; font-family: sans-serif;}
 .zoom-effect {  
   position: relative;
   width: 100%;
-  height: 350px;
+  height: auto;
   margin: 0 auto;
   overflow: hidden;  
 }
